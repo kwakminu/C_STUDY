@@ -27,7 +27,7 @@ int binary_search_tree(int arr[], int key, int size) {
 	}
 }
 
-// 퀵 소트에서 사용할 비교함수
+// /퀵 소트에서 사용할 비교함수
 int cmp(const void* a, const void* b) {
 	return *(int*)a > * (int*)b ? 1 : (*(int*)a < *(int*)b ? -1 : 0);
 }
@@ -53,5 +53,5 @@ int main() {
 		printf("%d\n", binary_search_tree(arrN, arrM[i], N));
 	}
 
-	return 0;
+	return 0; 
 }
